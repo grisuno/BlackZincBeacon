@@ -1,12 +1,12 @@
-# Black Zinc Beacon
+# 🫯 Black Zinc Beacon
 
 A lightweight ARM beacon designed for use in Android, Raspberry Pi, and Orange Pi devices.
 
-## About
+## 🫈 About
 
 BlackZinc Beacon is a custom C2 beacon focused on ARM architecture, supporting ARM Linux environments such as Android, Raspberry Pi, and Orange Pi. It is designed for stealth, low memory footprint, and secure communications using AES-256 CFB encryption, making it ideal for offensive security operations and red team engagements.
 
-## Features
+## 🫪 Features
 
 - Cross-platform ARM support (Android, Raspberry Pi, Orange Pi)
 - AES-256 CFB encryption for secure communication
@@ -15,7 +15,7 @@ BlackZinc Beacon is a custom C2 beacon focused on ARM architecture, supporting A
 - Integration with curl and Bionic libc
 - No hardcoded dependencies: modular and easy to compile
 
-## Installation
+## 🪊 Installation
 
 ```bash
 make
@@ -33,21 +33,21 @@ make
 - Deploy on ARM Linux device (Android, Raspberry Pi, Orange Pi).
 - Beacon will register and check for commands at regular intervals.
 ```
-## Security
+## 🪎 Security
 
 - Full memory safety practices (buffer overflow prevention, strict validation, snprintf usage)
 - No hardcoded secrets in production
 - Security hardened build flags recommended
 
-## Contributing
+## 🛘 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
+## 🌱 License
 
 This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
 
-## Code of Conduct
+## 🫍 Code of Conduct
 
 Please follow the code of conduct for community participation.
 
