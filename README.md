@@ -1,3 +1,5 @@
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/db834dd7-6c0e-43d0-806d-54d16c8d338e" />
+
 # 🫯 Black Zinc Beacon
 
 A lightweight ARM beacon designed for use in Android, Raspberry Pi, and Orange Pi devices.
