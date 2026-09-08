@@ -1,0 +1,24 @@
+{
+  "tool": "readmenator",
+  "generated_at": "2026-09-08T17:55:34Z",
+  "project_root": "/tmp/push_BlackZincBeacon_20260908_131917",
+  "files": 9,
+  "symbols": 282,
+  "imports": 38,
+  "resolved_imports": 4,
+  "security_findings": 0,
+  "languages": {
+    "c": 3,
+    "h": 2,
+    "sh": 3,
+    "py": 1
+  },
+  "entrypoints": [],
+  "start_here": "INDEX.md",
+  "workflow": [
+    "grep -n '<keyword>' INDEX.md",
+    "cat KB_<subsystem>.md",
+    "grep -n '<file>' ARCHITECTURE.md SYMBOLS.md"
+  ],
+  "regenerate": "readmenator . --rebuild"
+}
