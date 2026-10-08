@@ -69,8 +69,10 @@
 | `USER_AGENTS_COUNT` | macro | `beacon.c:33` | `#define USER_AGENTS_COUNT` |
 | `WriteMemoryCallback` | function | `beacon.c:182` | `static size_t WriteMemoryCallback(void *contents, size_t size, size_t nmemb, void *userp)` |
 | `_GNU_SOURCE` | macro | `beacon.c:1` | `#define _GNU_SOURCE` |
-| `aes256_cfb_decrypt` | function | `beacon.c:146` | `unsigned char* aes256_cfb_decrypt(const unsigned char* key, const unsigned char* iv,             ...` |
-| `aes256_cfb_encrypt` | function | `beacon.c:118` | `unsigned char* aes256_cfb_encrypt(const unsigned char* key, const unsigned char* iv,             ...` |
+| `aes256_cfb_decrypt` | function | `beacon.c:146` | `unsigned char* aes256_cfb_decrypt(const unsigned char* key, const unsigned char* iv,
+            ...` |
+| `aes256_cfb_encrypt` | function | `beacon.c:118` | `unsigned char* aes256_cfb_encrypt(const unsigned char* key, const unsigned char* iv,
+            ...` |
 | `base64_decode` | function | `beacon.c:76` | `unsigned char* base64_decode(const char* data, size_t* out_len)` |
 | `base64_encode` | function | `beacon.c:50` | `char* base64_encode(const unsigned char* data, size_t input_length)` |
 | `exec_cmd` | function | `beacon.c:252` | `char* exec_cmd(const char* cmd, int* out_len)` |
@@ -237,5 +239,5 @@
 | `cJSON_True` | macro | `cJSON.h:80` | `#define cJSON_True` |
 | `cJSON__h` | macro | `cJSON.h:24` | `#define cJSON__h` |
 | `cJSON_bool` | type_alias | `cJSON.h:120` | `typedef int cJSON_bool;` |
-| `next` | variable | `cJSON.h:27` | `extern "C" { #endif #if !defined(__WINDOWS__) && (defined(WIN32) \|\| defined(WIN64) \|\| defined(_MSC_VER) \|\|...` |
-| `sensitive` | function | `cJSON.h:249` | `* case_sensitive determines if object keys are treated case sensitive (1) or case insensitive (0) */...` |
+| `next` | variable | `cJSON.h:27` | `extern "C" { #endif #if !defined(__WINDOWS__) && (defined(WIN32) \|\| defined(WIN64) \|\| defined(_MSC_VER) \|\| defined` |
+| `sensitive` | function | `cJSON.h:249` | `* case_sensitive determines if object keys are treated case sensitive (1) or case insensitive (0) */ CJSON_PUBLIC(cJSON_` |

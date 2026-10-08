@@ -5,21 +5,14 @@
 These files have the most connections. Changes here have high blast radius.
 
 - `cJSON.c` (score: 14.50)
-- `cJSON.h` (score: 7.70, imported by 2 files)
+- `cJSON.h` (score: 7.70)
 - `aes.c` (score: 6.30)
-- `aes.h` (score: 5.70, imported by 2 files)
+- `aes.h` (score: 5.70)
 - `beacon.c` (score: 5.50)
 - `andoid_build.sh` (score: 0.00)
 - `app.py` (score: 0.00)
 - `armbian_build.sh` (score: 0.00)
 - `install.sh` (score: 0.00)
-
-## Blast Radius (change impact)
-
-Editing these files can break the listed number of dependents. Run their tests after any change.
-
-- `aes.h` -- 2 direct, 2 total dependents
-- `cJSON.h` -- 2 direct, 2 total dependents
 
 ## Hotspots (complexity + centrality)
 

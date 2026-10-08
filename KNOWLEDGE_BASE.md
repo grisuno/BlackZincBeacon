@@ -12,7 +12,7 @@
 **Total Files Parsed:** 9 | **Total Symbols Extracted:** 237 | **Total Imports:** 38
  | **Resolved Imports:** 4
 
-<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:1e0fd0b | date:2026-07-18 -->
+<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:b3ca3bb | date:2026-07-18 -->
 
 
 ## Table of Contents
@@ -27,13 +27,12 @@
 8. [Change Impact Analysis](#change-impact-analysis)
 9. [Suggested Linting Rules](#suggested-linting-rules)
 10. [Dataflow Analysis](#dataflow-analysis)
-11. [Concept Graph](#concept-graph)
-12. [Orphans](#orphans)
-13. [Query Recipes](#query-recipes)
-14. [Structural Knowledge Map](#structural-knowledge-map)
-15. [UML Class Diagram](#uml-class-diagram)
-16. [Code Property Graph](#code-property-graph)
-17. [Architecture Reference](#architecture-reference)
+11. [Orphans](#orphans)
+12. [Query Recipes](#query-recipes)
+13. [Structural Knowledge Map](#structural-knowledge-map)
+14. [UML Class Diagram](#uml-class-diagram)
+15. [Code Property Graph](#code-property-graph)
+16. [Architecture Reference](#architecture-reference)
     - [C (3 files)](#c-3-files)
     - [H (2 files)](#h-2-files)
     - [PY (1 files)](#py-1-files)
@@ -80,19 +79,23 @@ Auto-detected from path patterns, naming conventions, and imported frameworks.
 
 | Layer | Files |
 |-------|-------|
-| utility | 9 |
+| utility | 7 |
+| presentation | 2 |
 
 ### utility
 
 - `aes.c` (c, 43 symbols)
 - `aes.h` (h, 17 symbols)
-- `andoid_build.sh` (sh, 0 symbols)
 - `app.py` (py, 0 symbols)
-- `armbian_build.sh` (sh, 0 symbols)
 - `beacon.c` (c, 15 symbols)
 - `cJSON.c` (c, 125 symbols)
 - `cJSON.h` (h, 37 symbols)
 - `install.sh` (sh, 0 symbols)
+
+### presentation
+
+- `andoid_build.sh` (sh, 0 symbols)
+- `armbian_build.sh` (sh, 0 symbols)
 
 ---
 
@@ -191,95 +194,6 @@ Procedural intra-function dataflow findings (zero tokens, regex-based heuristics
 | `beacon.c` | `main` | 456 | `UNCHECKED_ALLOC` | `full_enc` | Result of allocator stored in `full_enc` is never checked against NULL. |
 | `cJSON.c` | `print_array` | 1654 | `DEAD_STORE` | `output_pointer` | `output_pointer` assigned at line 1654 but never read afterwards. |
 | `cJSON.c` | `print_object` | 1887 | `DEAD_STORE` | `output_pointer` | `output_pointer` assigned at line 1887 but never read afterwards. |
-
----
-
-## Concept Graph
-
-Semantic second-brain layer: nouns are concept nodes, verbs are edges. Each noun maps atomically to a file set (EXTRACTED); each verb aggregates structural imports, calls, and inherits into consumes, invokes, extends, depends_on, or bridges (INFERRED).
-
-**50 concepts, 100 relations.**
-
-| Concept | Files | Mentions |
-|---------|-------|----------|
-| `aes` | 3 | 32 |
-| `get` | 3 | 16 |
-| `defined` | 3 | 12 |
-| `value` | 3 | 11 |
-| `number` | 3 | 10 |
-| `build` | 3 | 6 |
-| `each` | 3 | 5 |
-| `set` | 3 | 5 |
-| `encrypt` | 3 | 4 |
-| `next` | 3 | 4 |
-| `cjson` | 2 | 95 |
-| `buffer` | 2 | 86 |
-| `json` | 2 | 83 |
-| `public` | 2 | 75 |
-| `const` | 2 | 36 |
-| `object` | 2 | 32 |
-| `offset` | 2 | 31 |
-| `string` | 2 | 27 |
-| `array` | 2 | 23 |
-| `hooks` | 2 | 21 |
-| `null` | 2 | 20 |
-| `size` | 2 | 18 |
-| `bool` | 2 | 15 |
-| `define` | 2 | 15 |
-| `version` | 2 | 14 |
-| `function` | 2 | 13 |
-| `cbc` | 2 | 11 |
-| `false` | 2 | 11 |
-| `true` | 2 | 11 |
-| `ctx` | 2 | 9 |
-
-### Verb Edges
-
-| Source | Verb | Target | Strength | Evidence |
-|--------|------|--------|----------|----------|
-| `get` | `consumes` | `set` | 1.00 | 4 |
-| `get` | `depends_on` | `set` | 1.00 | 4 |
-| `aes` | `consumes` | `set` | 0.75 | 3 |
-| `aes` | `depends_on` | `set` | 0.75 | 3 |
-| `decrypt` | `consumes` | `set` | 0.75 | 3 |
-| `decrypt` | `depends_on` | `set` | 0.75 | 3 |
-| `encrypt` | `consumes` | `set` | 0.75 | 3 |
-| `encrypt` | `depends_on` | `set` | 0.75 | 3 |
-| `https` | `consumes` | `set` | 0.75 | 3 |
-| `https` | `depends_on` | `set` | 0.75 | 3 |
-| `add` | `consumes` | `set` | 0.50 | 2 |
-| `add` | `depends_on` | `set` | 0.50 | 2 |
-| `aes` | `consumes` | `aes256` | 0.50 | 2 |
-| `aes` | `depends_on` | `aes256` | 0.50 | 2 |
-| `aes` | `consumes` | `blocklen` | 0.50 | 2 |
-| `aes` | `depends_on` | `blocklen` | 0.50 | 2 |
-| `aes` | `consumes` | `cbc` | 0.50 | 2 |
-| `aes` | `depends_on` | `cbc` | 0.50 | 2 |
-| `aes` | `consumes` | `ctr` | 0.50 | 2 |
-| `aes` | `depends_on` | `ctr` | 0.50 | 2 |
-| `aes` | `consumes` | `ctx` | 0.50 | 2 |
-| `aes` | `depends_on` | `ctx` | 0.50 | 2 |
-| `aes` | `consumes` | `defined` | 0.50 | 2 |
-| `aes` | `depends_on` | `defined` | 0.50 | 2 |
-| `aes` | `consumes` | `ecb` | 0.50 | 2 |
-| `aes` | `depends_on` | `ecb` | 0.50 | 2 |
-| `aes` | `consumes` | `encrypt` | 0.50 | 2 |
-| `aes` | `depends_on` | `encrypt` | 0.50 | 2 |
-| `aes` | `consumes` | `key` | 0.50 | 2 |
-| `aes` | `depends_on` | `key` | 0.50 | 2 |
-
-### Dialectic Prompts
-
-- Thesis: `add` centralizes 2 files; Antithesis: `buffer` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `add` centralizes 2 files; Antithesis: `bytes` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `add` centralizes 2 files; Antithesis: `defined` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `add` centralizes 2 files; Antithesis: `each` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `add` centralizes 2 files; Antithesis: `endif` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `add` centralizes 2 files; Antithesis: `function` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `add` centralizes 2 files; Antithesis: `get` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `add` centralizes 2 files; Antithesis: `next` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `add` centralizes 2 files; Antithesis: `number` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `add` centralizes 2 files; Antithesis: `offset` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
 
 ---
 

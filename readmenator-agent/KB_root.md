@@ -1,8 +1,8 @@
 # Subsystem: root
 
 ## aes.c
-- Doc: tiny-AES-c (https://github.com/kokke/tiny-AES-c)
 - Layer: utility
+- Doc: aes.c - tiny-AES-c (https://github.com/kokke/tiny-AES-c)
 - Language: c
 - Symbols:
   - `getSBoxValue` (function, line 13) `static uint8_t getSBoxValue(uint8_t num)`
@@ -51,7 +51,6 @@
 - Depends on: `aes.h`
 
 ## aes.h
-- Doc: AES_init_ctx_iv: if (defined(CBC) && (CBC == 1)) || (defined(CTR) && (CTR == 1))
 - Layer: utility
 - Language: h
 - Symbols:
@@ -75,21 +74,20 @@
 - Imported by: `aes.c`, `beacon.c`
 
 ## andoid_build.sh
-- Layer: utility
+- Layer: presentation
 - Language: sh
 
 ## app.py
-- Doc: Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación...
 - Layer: utility
+- Doc: app.py  Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación: xx/xx/xxxx Licenci
 - Language: py
 
 ## armbian_build.sh
+- Layer: presentation
 - Doc: export CC=aarch64-linux-gnu-gcc
-- Layer: utility
 - Language: sh
 
 ## beacon.c
-- Doc: MemoryStruct: === HTTPS REQUEST ===
 - Layer: utility
 - Language: c
 - Symbols:
@@ -113,7 +111,6 @@
 - Depends on: `aes.h`, `cJSON.h`
 
 ## cJSON.c
-- Doc: case_insensitive_strcmp: /* This is a safeguard to prevent copy-pasters from using incompatible...
 - Layer: utility
 - Language: c
 - Symbols:
@@ -245,15 +242,14 @@
 - Depends on: `cJSON.h`
 
 ## cJSON.h
-- Doc: cJSON: #define cJSON_Invalid (0) #define cJSON_False  (1 << 0) #define cJSON_True   (1 << 1)...
 - Layer: utility
 - Language: h
 - Symbols:
   - `cJSON` (struct, line 92)
   - `cJSON_Hooks` (struct, line 114)
   - `cJSON_bool` (type_alias, line 120) `typedef int cJSON_bool;`
-  - `sensitive` (function, line 249) `* case_sensitive determines if object keys are treated case sensitive (1) or case insensitive (0) */...`
-  - `next` (variable, line 27) `extern "C" { #endif #if !defined(__WINDOWS__) && (defined(WIN32) || defined(WIN64) || defined(_MSC_VER) ||...`
+  - `sensitive` (function, line 249) `* case_sensitive determines if object keys are treated case sensitive (1) or case insensitive (0) */ CJSON_PUBLIC(cJSON_bool) cJSON_Compare(const cJSON * const a, const cJSON * const b, const cJSON_bo`
+  - `next` (variable, line 27) `extern "C" { #endif #if !defined(__WINDOWS__) && (defined(WIN32) || defined(WIN64) || defined(_MSC_VER) || defined(_WIN32)) #define __WINDOWS__ #endif #ifdef __WINDOWS__ /* When compiling for windows,`
   - `cJSON__h` (macro, line 24) `#define cJSON__h`
   - `__WINDOWS__` (macro, line 32) `#define __WINDOWS__`
   - `CJSON_CDECL` (macro, line 44) `#define CJSON_CDECL`
