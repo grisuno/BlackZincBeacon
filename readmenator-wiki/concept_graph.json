@@ -1,0 +1,1590 @@
+{
+  "concepts": [
+    {
+      "name": "aes",
+      "files": [
+        "aes.c",
+        "aes.h",
+        "beacon.c"
+      ],
+      "mentions": 32,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "get",
+      "files": [
+        "aes.c",
+        "beacon.c",
+        "cJSON.c"
+      ],
+      "mentions": 16,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "defined",
+      "files": [
+        "aes.c",
+        "aes.h",
+        "cJSON.c"
+      ],
+      "mentions": 12,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "value",
+      "files": [
+        "aes.c",
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "number",
+      "files": [
+        "aes.c",
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "build",
+      "files": [
+        "andoid_build.sh",
+        "armbian_build.sh",
+        "cJSON.c"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "each",
+      "files": [
+        "aes.c",
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "set",
+      "files": [
+        "aes.c",
+        "aes.h",
+        "cJSON.h"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "encrypt",
+      "files": [
+        "aes.c",
+        "aes.h",
+        "beacon.c"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "next",
+      "files": [
+        "aes.c",
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "cjson",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 95,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "buffer",
+      "files": [
+        "aes.c",
+        "cJSON.c"
+      ],
+      "mentions": 86,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "json",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 83,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "public",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 75,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "const",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 36,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "object",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 32,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "offset",
+      "files": [
+        "aes.c",
+        "cJSON.c"
+      ],
+      "mentions": 31,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "string",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 27,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "array",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 23,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "hooks",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 21,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "null",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 20,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "size",
+      "files": [
+        "aes.h",
+        "cJSON.c"
+      ],
+      "mentions": 18,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "bool",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 15,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "define",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 15,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "version",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 14,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "function",
+      "files": [
+        "aes.c",
+        "cJSON.c"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "cbc",
+      "files": [
+        "aes.c",
+        "aes.h"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "false",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "true",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "ctx",
+      "files": [
+        "aes.c",
+        "aes.h"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "text",
+      "files": [
+        "aes.c",
+        "cJSON.c"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "ctr",
+      "files": [
+        "aes.c",
+        "aes.h"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "ecb",
+      "files": [
+        "aes.c",
+        "aes.h"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "key",
+      "files": [
+        "aes.c",
+        "aes.h"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "add",
+      "files": [
+        "aes.c",
+        "cJSON.c"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "bytes",
+      "files": [
+        "aes.c",
+        "cJSON.c"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "cdecl",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "blocklen",
+      "files": [
+        "aes.c",
+        "aes.h"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "decrypt",
+      "files": [
+        "aes.c",
+        "beacon.c"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "endif",
+      "files": [
+        "aes.c",
+        "cJSON.c"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "https",
+      "files": [
+        "aes.c",
+        "beacon.c"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "keylen",
+      "files": [
+        "aes.c",
+        "aes.h"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "minor",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "used",
+      "files": [
+        "aes.c",
+        "cJSON.c"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "aes256",
+      "files": [
+        "aes.h",
+        "beacon.c"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "com",
+      "files": [
+        "aes.c",
+        "app.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "gcc",
+      "files": [
+        "armbian_build.sh",
+        "cJSON.c"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "major",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "patch",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "reference",
+      "files": [
+        "cJSON.c",
+        "cJSON.h"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [
+    {
+      "source": "get",
+      "target": "set",
+      "verb": "consumes",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h",
+        "beacon.c->cJSON.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "get",
+      "target": "set",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h",
+        "beacon.c->cJSON.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "set",
+      "verb": "consumes",
+      "strength": 0.75,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h",
+        "beacon.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "set",
+      "verb": "depends_on",
+      "strength": 0.75,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h",
+        "beacon.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "set",
+      "verb": "consumes",
+      "strength": 0.75,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h",
+        "beacon.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "set",
+      "verb": "depends_on",
+      "strength": 0.75,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h",
+        "beacon.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "set",
+      "verb": "consumes",
+      "strength": 0.75,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h",
+        "beacon.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "set",
+      "verb": "depends_on",
+      "strength": 0.75,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h",
+        "beacon.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "https",
+      "target": "set",
+      "verb": "consumes",
+      "strength": 0.75,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h",
+        "beacon.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "https",
+      "target": "set",
+      "verb": "depends_on",
+      "strength": 0.75,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h",
+        "beacon.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "add",
+      "target": "set",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "add",
+      "target": "set",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "aes256",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "aes256",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "blocklen",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "blocklen",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "cbc",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "cbc",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "ctr",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "ctr",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "ctx",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "ctx",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "defined",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "defined",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "ecb",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "ecb",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "encrypt",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "encrypt",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "key",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "key",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "keylen",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "keylen",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "size",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes",
+      "target": "size",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "aes256",
+      "target": "set",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "beacon.c->aes.h",
+        "beacon.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "aes256",
+      "target": "set",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "beacon.c->aes.h",
+        "beacon.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "buffer",
+      "target": "set",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "buffer",
+      "target": "set",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "bytes",
+      "target": "set",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "bytes",
+      "target": "set",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "aes",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "aes",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "aes256",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "aes256",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "blocklen",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "blocklen",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "cbc",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "cbc",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "ctr",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "ctr",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "ctx",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "ctx",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "defined",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "defined",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "ecb",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "ecb",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "encrypt",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "encrypt",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "key",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "key",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "keylen",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "keylen",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "size",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "decrypt",
+      "target": "size",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "defined",
+      "target": "set",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "defined",
+      "target": "set",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "each",
+      "target": "set",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "each",
+      "target": "set",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "aes",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "aes",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "aes256",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "aes256",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "blocklen",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "blocklen",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "cbc",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "cbc",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "ctr",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "ctr",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "ctx",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "ctx",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "defined",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "defined",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "ecb",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "ecb",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "key",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "key",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "keylen",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "keylen",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "size",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "encrypt",
+      "target": "size",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "endif",
+      "target": "set",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "endif",
+      "target": "set",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "function",
+      "target": "set",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "function",
+      "target": "set",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "get",
+      "target": "aes",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "get",
+      "target": "aes",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "get",
+      "target": "aes256",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "get",
+      "target": "aes256",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "aes.c->aes.h",
+        "beacon.c->aes.h"
+      ]
+    },
+    {
+      "source": "get",
+      "target": "array",
+      "verb": "consumes",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "beacon.c->cJSON.h",
+        "cJSON.c->cJSON.h"
+      ]
+    },
+    {
+      "source": "get",
+      "target": "array",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "beacon.c->cJSON.h",
+        "cJSON.c->cJSON.h"
+      ]
+    }
+  ],
+  "dialectic": [
+    "Thesis: `add` centralizes 2 files; Antithesis: `buffer` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `add` centralizes 2 files; Antithesis: `bytes` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `add` centralizes 2 files; Antithesis: `defined` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `add` centralizes 2 files; Antithesis: `each` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `add` centralizes 2 files; Antithesis: `endif` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `add` centralizes 2 files; Antithesis: `function` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `add` centralizes 2 files; Antithesis: `get` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `add` centralizes 2 files; Antithesis: `next` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `add` centralizes 2 files; Antithesis: `number` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `add` centralizes 2 files; Antithesis: `offset` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?"
+  ]
+}

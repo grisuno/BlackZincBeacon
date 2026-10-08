@@ -1,0 +1,120 @@
+# Concepts
+
+Nouns map atomically to file sets (EXTRACTED); verbs aggregate structural edges (INFERRED).
+
+- `aes` | files=3 | mentions=32 | `aes.c`, `aes.h`, `beacon.c`
+- `get` | files=3 | mentions=16 | `aes.c`, `beacon.c`, `cJSON.c`
+- `defined` | files=3 | mentions=12 | `aes.c`, `aes.h`, `cJSON.c`
+- `value` | files=3 | mentions=11 | `aes.c`, `cJSON.c`, `cJSON.h`
+- `number` | files=3 | mentions=10 | `aes.c`, `cJSON.c`, `cJSON.h`
+- `build` | files=3 | mentions=6 | `andoid_build.sh`, `armbian_build.sh`, `cJSON.c`
+- `each` | files=3 | mentions=5 | `aes.c`, `cJSON.c`, `cJSON.h`
+- `set` | files=3 | mentions=5 | `aes.c`, `aes.h`, `cJSON.h`
+- `encrypt` | files=3 | mentions=4 | `aes.c`, `aes.h`, `beacon.c`
+- `next` | files=3 | mentions=4 | `aes.c`, `cJSON.c`, `cJSON.h`
+- `cjson` | files=2 | mentions=95 | `cJSON.c`, `cJSON.h`
+- `buffer` | files=2 | mentions=86 | `aes.c`, `cJSON.c`
+- `json` | files=2 | mentions=83 | `cJSON.c`, `cJSON.h`
+- `public` | files=2 | mentions=75 | `cJSON.c`, `cJSON.h`
+- `const` | files=2 | mentions=36 | `cJSON.c`, `cJSON.h`
+- `object` | files=2 | mentions=32 | `cJSON.c`, `cJSON.h`
+- `offset` | files=2 | mentions=31 | `aes.c`, `cJSON.c`
+- `string` | files=2 | mentions=27 | `cJSON.c`, `cJSON.h`
+- `array` | files=2 | mentions=23 | `cJSON.c`, `cJSON.h`
+- `hooks` | files=2 | mentions=21 | `cJSON.c`, `cJSON.h`
+- `null` | files=2 | mentions=20 | `cJSON.c`, `cJSON.h`
+- `size` | files=2 | mentions=18 | `aes.h`, `cJSON.c`
+- `bool` | files=2 | mentions=15 | `cJSON.c`, `cJSON.h`
+- `define` | files=2 | mentions=15 | `cJSON.c`, `cJSON.h`
+- `version` | files=2 | mentions=14 | `cJSON.c`, `cJSON.h`
+- `function` | files=2 | mentions=13 | `aes.c`, `cJSON.c`
+- `cbc` | files=2 | mentions=11 | `aes.c`, `aes.h`
+- `false` | files=2 | mentions=11 | `cJSON.c`, `cJSON.h`
+- `true` | files=2 | mentions=11 | `cJSON.c`, `cJSON.h`
+- `ctx` | files=2 | mentions=9 | `aes.c`, `aes.h`
+- `text` | files=2 | mentions=9 | `aes.c`, `cJSON.c`
+- `ctr` | files=2 | mentions=8 | `aes.c`, `aes.h`
+- `ecb` | files=2 | mentions=8 | `aes.c`, `aes.h`
+- `key` | files=2 | mentions=8 | `aes.c`, `aes.h`
+- `add` | files=2 | mentions=6 | `aes.c`, `cJSON.c`
+- `bytes` | files=2 | mentions=5 | `aes.c`, `cJSON.c`
+- `cdecl` | files=2 | mentions=5 | `cJSON.c`, `cJSON.h`
+- `blocklen` | files=2 | mentions=4 | `aes.c`, `aes.h`
+- `decrypt` | files=2 | mentions=4 | `aes.c`, `beacon.c`
+- `endif` | files=2 | mentions=4 | `aes.c`, `cJSON.c`
+- `https` | files=2 | mentions=4 | `aes.c`, `beacon.c`
+- `keylen` | files=2 | mentions=4 | `aes.c`, `aes.h`
+- `minor` | files=2 | mentions=4 | `cJSON.c`, `cJSON.h`
+- `used` | files=2 | mentions=4 | `aes.c`, `cJSON.c`
+- `aes256` | files=2 | mentions=3 | `aes.h`, `beacon.c`
+- `com` | files=2 | mentions=3 | `aes.c`, `app.py`
+- `gcc` | files=2 | mentions=3 | `armbian_build.sh`, `cJSON.c`
+- `major` | files=2 | mentions=3 | `cJSON.c`, `cJSON.h`
+- `patch` | files=2 | mentions=3 | `cJSON.c`, `cJSON.h`
+- `reference` | files=2 | mentions=3 | `cJSON.c`, `cJSON.h`
+
+## Verb Edges
+
+- `get` --consumes--> `set` (strength 1.00)
+- `get` --depends_on--> `set` (strength 1.00)
+- `aes` --consumes--> `set` (strength 0.75)
+- `aes` --depends_on--> `set` (strength 0.75)
+- `decrypt` --consumes--> `set` (strength 0.75)
+- `decrypt` --depends_on--> `set` (strength 0.75)
+- `encrypt` --consumes--> `set` (strength 0.75)
+- `encrypt` --depends_on--> `set` (strength 0.75)
+- `https` --consumes--> `set` (strength 0.75)
+- `https` --depends_on--> `set` (strength 0.75)
+- `add` --consumes--> `set` (strength 0.50)
+- `add` --depends_on--> `set` (strength 0.50)
+- `aes` --consumes--> `aes256` (strength 0.50)
+- `aes` --depends_on--> `aes256` (strength 0.50)
+- `aes` --consumes--> `blocklen` (strength 0.50)
+- `aes` --depends_on--> `blocklen` (strength 0.50)
+- `aes` --consumes--> `cbc` (strength 0.50)
+- `aes` --depends_on--> `cbc` (strength 0.50)
+- `aes` --consumes--> `ctr` (strength 0.50)
+- `aes` --depends_on--> `ctr` (strength 0.50)
+- `aes` --consumes--> `ctx` (strength 0.50)
+- `aes` --depends_on--> `ctx` (strength 0.50)
+- `aes` --consumes--> `defined` (strength 0.50)
+- `aes` --depends_on--> `defined` (strength 0.50)
+- `aes` --consumes--> `ecb` (strength 0.50)
+- `aes` --depends_on--> `ecb` (strength 0.50)
+- `aes` --consumes--> `encrypt` (strength 0.50)
+- `aes` --depends_on--> `encrypt` (strength 0.50)
+- `aes` --consumes--> `key` (strength 0.50)
+- `aes` --depends_on--> `key` (strength 0.50)
+- `aes` --consumes--> `keylen` (strength 0.50)
+- `aes` --depends_on--> `keylen` (strength 0.50)
+- `aes` --consumes--> `size` (strength 0.50)
+- `aes` --depends_on--> `size` (strength 0.50)
+- `aes256` --consumes--> `set` (strength 0.50)
+- `aes256` --depends_on--> `set` (strength 0.50)
+- `buffer` --consumes--> `set` (strength 0.50)
+- `buffer` --depends_on--> `set` (strength 0.50)
+- `bytes` --consumes--> `set` (strength 0.50)
+- `bytes` --depends_on--> `set` (strength 0.50)
+- `decrypt` --consumes--> `aes` (strength 0.50)
+- `decrypt` --depends_on--> `aes` (strength 0.50)
+- `decrypt` --consumes--> `aes256` (strength 0.50)
+- `decrypt` --depends_on--> `aes256` (strength 0.50)
+- `decrypt` --consumes--> `blocklen` (strength 0.50)
+- `decrypt` --depends_on--> `blocklen` (strength 0.50)
+- `decrypt` --consumes--> `cbc` (strength 0.50)
+- `decrypt` --depends_on--> `cbc` (strength 0.50)
+- `decrypt` --consumes--> `ctr` (strength 0.50)
+- `decrypt` --depends_on--> `ctr` (strength 0.50)
+
+## Dialectic
+
+- Thesis: `add` centralizes 2 files; Antithesis: `buffer` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `add` centralizes 2 files; Antithesis: `bytes` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `add` centralizes 2 files; Antithesis: `defined` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `add` centralizes 2 files; Antithesis: `each` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `add` centralizes 2 files; Antithesis: `endif` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `add` centralizes 2 files; Antithesis: `function` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `add` centralizes 2 files; Antithesis: `get` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `add` centralizes 2 files; Antithesis: `next` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `add` centralizes 2 files; Antithesis: `number` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `add` centralizes 2 files; Antithesis: `offset` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
